@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>VRC Kmart Public Dashboard</title>
+    <meta
+      name="description"
+      content="A Public dashboard with statistics about the VRC Kmart maps and applications"
+    />
+    <meta name="og:title" content="VRC Kmart Public Dashboard" />
+    <meta
+      name="og:description"
+      content="A Public dashboard with statistics about the VRC Kmart maps and applications"
+    />
+
+    <script src="./assets/dashboard.js" defer></script>
+    <link rel="stylesheet" href="./assets/style.css" />
+
+    <!-- Imports (not tariffed) -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body lang="en" data-bs-theme="dark">
+    <nav class="navbar bg-body-tertiary">
+      <div class="container text-center" id="theFuckingNavbar">
+        <a class="navbar-brand" href="#">
+          <img
+            src="./assets/logoVertical.png"
+            alt="VRC Kmart Logo"
+            width="69"
+            height="58"
+          />
+          Dashboard
+        </a>
+      </div>
+    </nav>
+    <div class="container" id="mainDiv">
+      <br />
+      <!-- Current Player Counts -->
+      <div class="row" id="playerCounts">
+        <div class="card col-4">
+          <div class="card-body">
+            <div class="spinner-border text-primary" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <span>Player Count in SuperK</span>
+          </div>
+        </div>
+        <div class="card col-4">
+          <div class="card-body">
+            <div class="spinner-border text-primary" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <span>Player Count in Main Store</span>
+          </div>
+        </div>
+        <div class="card col-4">
+          <div class="card-body">
+            <div class="spinner-border text-primary" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <span>Player Count in Express</span>
+          </div>
+        </div>
+      </div>
+      <br />
+
+      <!-- Total Visits -->
+      <div class="row" id="playerVisits">
+        <div class="card col-4">
+          <div class="card-body">
+            <div class="spinner-border text-primary" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <span>Total Visits to SuperK</span>
+          </div>
+        </div>
+        <div class="card col-4">
+          <div class="card-body">
+            <div class="spinner-border text-primary" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <span>Total Visits to Main Store</span>
+          </div>
+        </div>
+        <div class="card col-4">
+          <div class="card-body">
+            <div class="spinner-border text-primary" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <span>Total Visits to Express</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,6 +1,6 @@
 # VRC-Kmart
 
-![VRC Kmart Logo](./assets/logo.png)
+![VRC Kmart Logo](./assets/logoHorizontal.png)
 
 The front facing page for VRC Kmart.
 
