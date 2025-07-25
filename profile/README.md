@@ -10,7 +10,7 @@ Home to things like:
   - Scroll Down!
 - Silly easter eggs we feel like hiding
 - Public VCC Repos we maintain
-  - Coming Soon™
+  - Add them to your VCC! - https://vrc-kmart.github.io/VRCKmartVCCListing/
 - ~~My fucking sanity~~
 - Random things we feel like storing here
   - this is going to turn into the dev team dumping ground isn't it
