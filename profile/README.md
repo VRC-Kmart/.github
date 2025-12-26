@@ -17,20 +17,6 @@ Home to things like:
 
 Also check out [aisle-6](https://github.com/vrc-kmart/aisle-6)!
 
-## GitHub Stats
-
-### Visits to this repo
-
-![Visits Badge](https://badges.pufler.dev/visits/vrc-kmart/vrc-kmart?label=Visits%20To%20This%20Page&color=indigo)
-
-### Time Since This Repo's Last Update
-
-[![This Repo Last Update](https://badges.pufler.dev/updated/vrc-kmart/vrc-kmart?label=Time%20Since%20Last%20Push&color=green)](https://github.com/vrc-kmart/vrc-kmart)
-
-### Time Since [Aisle-6](https://github.com/vrc-kmart/aisle-6)'s Last Update
-
-[![Aisle 6 Last Update](https://badges.pufler.dev/updated/vrc-kmart/aisle-6?label=Time%20Since%20Last%20Push&color=green)](https://github.com/vrc-kmart/aisle-6)
-
 ## VRChat Stats
 
 ### Super Kmart Center
